@@ -57,7 +57,7 @@
     margin-left: 569px;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 600px) {
     .do{
         width: auto;
         margin: 0;

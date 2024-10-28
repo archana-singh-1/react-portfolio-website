@@ -59,7 +59,7 @@
 
 }
 
-@media (min-width: 360px) {
+@media (max-width: 600px) {
     .containProject{
         width: auto;
         margin: 0;

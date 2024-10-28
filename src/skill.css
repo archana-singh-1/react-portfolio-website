@@ -35,7 +35,7 @@
     margin-top: 10px;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 600px) {
     .skill{
         width: auto;
         margin: 0;
