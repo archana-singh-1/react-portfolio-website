@@ -1,0 +1,80 @@
+
+
+.footer{
+    background-color: gray;
+    padding-top: 20px;
+}
+
+.footContain{
+    background-color: #333;
+}
+
+.footerPort{
+    margin-left: 903px;
+    color: rgb(27, 78, 218);
+    font-size: 32px;
+    padding-top: 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+.contactDetails{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.aboutPort{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.informtext{
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.footerBor{
+    border: solid 1px whitesmoke;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.year{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 360px){
+    .contactDetails{
+        width: auto;
+        justify-content: unset;
+        gap: 84px;
+        padding: 10px;
+    }
+    .footerPort{
+        margin: 0;
+        font-size: 24px;
+        text-align: center;
+    }
+    .aboutPort {
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .informtext{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}

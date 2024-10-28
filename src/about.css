@@ -1,0 +1,101 @@
+.aboutContain{
+    background-color: white;
+
+}
+.do{
+    width: 1500px;
+    margin-left: 85px;
+}
+
+.whatIdo{
+    font-size: 34px;
+    padding: 10px;
+    text-align: center;
+}
+
+.introd {
+    font-size: 25px;
+    padding: 10px;
+}
+.aboutzuvy{
+    font-size: 25px;
+    padding: 10px;
+
+}
+.aboutnav{
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.whatNavguru{
+    font-size: 31px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+
+
+
+}
+
+.navgurukuldetails{
+    font-size: 25px;
+    padding: 10px;
+
+}
+.infobor{
+    width: 224px;
+    border: solid 2px orange;
+    margin-top: 8px;
+    margin-left: 632px;
+  }
+
+.infobors{
+    width: 360px;
+    border: solid 2px orange;
+    margin-top: 8px;
+    margin-left: 569px;
+}
+
+@media (min-width: 360px) {
+    .do{
+        width: auto;
+        margin: 0;
+    }
+    .infobor {
+        margin: 0;
+        width: 169px;
+        margin-left: 139px;
+    }
+    .infobors{
+        margin: 0;
+        margin-left: 44px;
+    }
+    .whatIdo {
+        font-size: 29px;
+        padding: 10px;
+        text-align:center;
+    }
+    .introd {
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+
+    .aboutzuvy {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .aboutnav {
+        font-size: 20px;
+
+    }
+    .whatNavguru {
+        font-size: 29px;
+
+    }
+
+    .navgurukuldetails {
+    font-size: 20px;
+    }
+}

@@ -1,0 +1,84 @@
+.containProject{
+    width: 1500px;
+    margin-left: 97px;
+}
+
+.img1{
+    width: 767px;
+    border-radius: 8px;
+}
+.allproject{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.donation{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+.dondiv {
+    width: 105px;
+    margin: auto;
+    margin-top: 29px;
+}
+
+.live{
+    text-decoration: none;
+    color: black;
+    width: 102px;
+    border: solid 2px whitesmoke;
+    background-color: gray;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.live:hover {
+    background-color: lightsalmon; 
+    color: white; 
+}
+
+.project{
+    text-align: center;
+    font-size: 31px;
+    padding-top: 20px;
+}
+
+.projectbor{
+    width: 251px;
+    border: solid 2px orange;
+    margin-top: 8px;
+    margin-left: 617px;
+
+}
+
+@media (min-width: 360px) {
+    .containProject{
+        width: auto;
+        margin: 0;
+    }
+    .projectbor{
+        margin: 0;
+        margin-left: 88px;
+    }
+    .allproject{
+        flex-direction: column;
+    }
+
+    .img1 {
+        width: 408px;
+        margin: 18px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    .donation{
+        flex-direction: column;
+    }
+}
